@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="394.0000999999975" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javaFX.Controller">
+  <children>
+    <BorderPane cache="true" cacheHint="DEFAULT" depthTest="INHERIT" disable="false" focusTraversable="false" layoutX="0.0" layoutY="0.0" prefHeight="394.0001220703125" prefWidth="600.0" rotate="0.0">
+      <bottom>
+        <HBox alignment="CENTER" prefHeight="47.0" prefWidth="600.0">
+          <children>
+            <Button id="" fx:id="button" mnemonicParsing="false" onAction="#startCamera" text="Start Camera" />
+          </children>
+        </HBox>
+      </bottom>
+      <center>
+        <ImageView id="" fx:id="currentFrame" fitHeight="280.5" fitWidth="374.0" pickOnBounds="true" preserveRatio="true" />
+      </center>
+    </BorderPane>
+  </children>
+</AnchorPane>
